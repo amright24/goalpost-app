@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B500D51922454B7400806B12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500D51822454B7400806B12 /* AppDelegate.swift */; };
-		B500D51B22454B7400806B12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500D51A22454B7400806B12 /* ViewController.swift */; };
+		B500D51B22454B7400806B12 /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500D51A22454B7400806B12 /* GoalsVC.swift */; };
 		B500D51E22454B7400806B12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B500D51C22454B7400806B12 /* Main.storyboard */; };
 		B500D52122454B7400806B12 /* goalpost_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B500D51F22454B7400806B12 /* goalpost_app.xcdatamodeld */; };
 		B500D52322454B7400806B12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B500D52222454B7400806B12 /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		B500D51522454B7400806B12 /* goalpost-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "goalpost-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B500D51822454B7400806B12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B500D51A22454B7400806B12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B500D51A22454B7400806B12 /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
 		B500D51D22454B7400806B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B500D52022454B7400806B12 /* goalpost_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = goalpost_app.xcdatamodel; sourceTree = "<group>"; };
 		B500D52222454B7400806B12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,8 +56,11 @@
 		B500D51722454B7400806B12 /* goalpost-app */ = {
 			isa = PBXGroup;
 			children = (
+				B500D53022454C4F00806B12 /* Extensions */,
+				B500D52F22454C4900806B12 /* Enums */,
+				B500D52E22454C3900806B12 /* Views */,
+				B500D52D22454C3500806B12 /* Controller */,
 				B500D51822454B7400806B12 /* AppDelegate.swift */,
-				B500D51A22454B7400806B12 /* ViewController.swift */,
 				B500D51C22454B7400806B12 /* Main.storyboard */,
 				B500D52222454B7400806B12 /* Assets.xcassets */,
 				B500D52422454B7400806B12 /* LaunchScreen.storyboard */,
@@ -65,6 +68,35 @@
 				B500D51F22454B7400806B12 /* goalpost_app.xcdatamodeld */,
 			);
 			path = "goalpost-app";
+			sourceTree = "<group>";
+		};
+		B500D52D22454C3500806B12 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B500D51A22454B7400806B12 /* GoalsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B500D52E22454C3900806B12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B500D52F22454C4900806B12 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		B500D53022454C4F00806B12 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B500D51B22454B7400806B12 /* ViewController.swift in Sources */,
+				B500D51B22454B7400806B12 /* GoalsVC.swift in Sources */,
 				B500D51922454B7400806B12 /* AppDelegate.swift in Sources */,
 				B500D52122454B7400806B12 /* goalpost_app.xcdatamodeld in Sources */,
 			);

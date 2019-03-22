@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class GoalsVC: UIViewController {
 
@@ -24,3 +25,6 @@ class GoalsVC: UIViewController {
     
 }
 
+extension GoalsVC: UITableViewDelegate, UITableViewDataSource {
+    func number
+}

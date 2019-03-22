@@ -17,6 +17,7 @@
 		B503FAA622456B4E0016FFF9 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B503FAA522456B4E0016FFF9 /* GoalType.swift */; };
 		B503FAA822456F830016FFF9 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B503FAA722456F830016FFF9 /* RoundedButton.swift */; };
 		B503FAAA224577100016FFF9 /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B503FAA9224577100016FFF9 /* CreateGoalVC.swift */; };
+		B503FAAC224578AC0016FFF9 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B503FAAB224578AC0016FFF9 /* UIViewControllerExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		B503FAA522456B4E0016FFF9 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		B503FAA722456F830016FFF9 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		B503FAA9224577100016FFF9 /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
+		B503FAAB224578AC0016FFF9 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		B500D53022454C4F00806B12 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				B503FAAB224578AC0016FFF9 /* UIViewControllerExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			files = (
 				B500D532224555D600806B12 /* GoalCell.swift in Sources */,
 				B503FAA822456F830016FFF9 /* RoundedButton.swift in Sources */,
+				B503FAAC224578AC0016FFF9 /* UIViewControllerExt.swift in Sources */,
 				B503FAA622456B4E0016FFF9 /* GoalType.swift in Sources */,
 				B500D51B22454B7400806B12 /* GoalsVC.swift in Sources */,
 				B503FAAA224577100016FFF9 /* CreateGoalVC.swift in Sources */,

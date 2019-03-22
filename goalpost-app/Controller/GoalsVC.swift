@@ -19,9 +19,8 @@ class GoalsVC: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.isHidden = false
-        // Do any additional setup after loading the view.
     }
-
+    
     @IBAction func addGoalBtnWasPressed(_ sender: Any) {
         guard let createGoalVC = storyboard?.instantiateViewController(withIdentifier: "CreateGoalVC") else { return }
         presentDetail(createGoalVC)

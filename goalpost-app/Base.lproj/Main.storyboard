@@ -349,6 +349,7 @@
                         <viewLayoutGuide key="safeArea" id="xhw-Kp-19y"/>
                     </view>
                     <connections>
+                        <outlet property="createGoalView" destination="j3Y-3X-XVh" id="NZr-wa-Hee"/>
                         <outlet property="goalTextView" destination="URv-Rs-h3U" id="Pls-J4-4GN"/>
                         <outlet property="longTermBtn" destination="RCy-i1-34e" id="ahY-fE-ho5"/>
                         <outlet property="nextBtn" destination="J5u-Ml-IQm" id="F7f-av-XDy"/>

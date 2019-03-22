@@ -18,6 +18,7 @@
 		B503FAA822456F830016FFF9 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B503FAA722456F830016FFF9 /* RoundedButton.swift */; };
 		B503FAAA224577100016FFF9 /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B503FAA9224577100016FFF9 /* CreateGoalVC.swift */; };
 		B503FAAC224578AC0016FFF9 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B503FAAB224578AC0016FFF9 /* UIViewControllerExt.swift */; };
+		B5C8837B22459E51005F9764 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8837A22459E51005F9764 /* UIButtonExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		B503FAA722456F830016FFF9 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		B503FAA9224577100016FFF9 /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
 		B503FAAB224578AC0016FFF9 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		B5C8837A22459E51005F9764 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				B503FAAB224578AC0016FFF9 /* UIViewControllerExt.swift */,
+				B5C8837A22459E51005F9764 /* UIButtonExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C8837B22459E51005F9764 /* UIButtonExt.swift in Sources */,
 				B500D532224555D600806B12 /* GoalCell.swift in Sources */,
 				B503FAA822456F830016FFF9 /* RoundedButton.swift in Sources */,
 				B503FAAC224578AC0016FFF9 /* UIViewControllerExt.swift in Sources */,

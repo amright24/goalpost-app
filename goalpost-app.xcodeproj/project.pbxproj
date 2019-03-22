@@ -15,6 +15,8 @@
 		B500D52622454B7400806B12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B500D52422454B7400806B12 /* LaunchScreen.storyboard */; };
 		B500D532224555D600806B12 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500D531224555D600806B12 /* GoalCell.swift */; };
 		B503FAA622456B4E0016FFF9 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B503FAA522456B4E0016FFF9 /* GoalType.swift */; };
+		B503FAA822456F830016FFF9 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B503FAA722456F830016FFF9 /* RoundedButton.swift */; };
+		B503FAAA224577100016FFF9 /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B503FAA9224577100016FFF9 /* CreateGoalVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		B500D52722454B7400806B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B500D531224555D600806B12 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
 		B503FAA522456B4E0016FFF9 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
+		B503FAA722456F830016FFF9 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		B503FAA9224577100016FFF9 /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				B500D51A22454B7400806B12 /* GoalsVC.swift */,
+				B503FAA9224577100016FFF9 /* CreateGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -86,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				B500D531224555D600806B12 /* GoalCell.swift */,
+				B503FAA722456F830016FFF9 /* RoundedButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,8 +183,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B500D532224555D600806B12 /* GoalCell.swift in Sources */,
+				B503FAA822456F830016FFF9 /* RoundedButton.swift in Sources */,
 				B503FAA622456B4E0016FFF9 /* GoalType.swift in Sources */,
 				B500D51B22454B7400806B12 /* GoalsVC.swift in Sources */,
+				B503FAAA224577100016FFF9 /* CreateGoalVC.swift in Sources */,
 				B500D51922454B7400806B12 /* AppDelegate.swift in Sources */,
 				B500D52122454B7400806B12 /* goalpost_app.xcdatamodeld in Sources */,
 			);

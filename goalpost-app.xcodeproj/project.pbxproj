@@ -18,6 +18,7 @@
 		B503FAA822456F830016FFF9 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B503FAA722456F830016FFF9 /* RoundedButton.swift */; };
 		B503FAAA224577100016FFF9 /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B503FAA9224577100016FFF9 /* CreateGoalVC.swift */; };
 		B503FAAC224578AC0016FFF9 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B503FAAB224578AC0016FFF9 /* UIViewControllerExt.swift */; };
+		B57474E02246F9D50025E8D3 /* FinishGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57474DF2246F9D50025E8D3 /* FinishGoalVC.swift */; };
 		B5C8837B22459E51005F9764 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8837A22459E51005F9764 /* UIButtonExt.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		B503FAA722456F830016FFF9 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		B503FAA9224577100016FFF9 /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
 		B503FAAB224578AC0016FFF9 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		B57474DF2246F9D50025E8D3 /* FinishGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalVC.swift; sourceTree = "<group>"; };
 		B5C8837A22459E51005F9764 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +89,7 @@
 			children = (
 				B500D51A22454B7400806B12 /* GoalsVC.swift */,
 				B503FAA9224577100016FFF9 /* CreateGoalVC.swift */,
+				B57474DF2246F9D50025E8D3 /* FinishGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				B500D51B22454B7400806B12 /* GoalsVC.swift in Sources */,
 				B503FAAA224577100016FFF9 /* CreateGoalVC.swift in Sources */,
 				B500D51922454B7400806B12 /* AppDelegate.swift in Sources */,
+				B57474E02246F9D50025E8D3 /* FinishGoalVC.swift in Sources */,
 				B500D52122454B7400806B12 /* goalpost_app.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

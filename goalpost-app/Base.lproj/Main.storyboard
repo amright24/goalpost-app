@@ -90,13 +90,14 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="KhD-No-86h">
                                                     <rect key="frame" x="20" y="11" width="301" height="48"/>
                                                     <subviews>
-                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="QlU-3l-sUN">
+                                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="QlU-3l-sUN">
                                                             <rect key="frame" x="0.0" y="0.0" width="301" height="27"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Goal:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hG0-Jc-ymT">
                                                                     <rect key="frame" x="0.0" y="0.0" width="55" height="27"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" constant="55" id="4qP-TX-Idv"/>
+                                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="55" id="FYZ-ur-VHO"/>
                                                                     </constraints>
                                                                     <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="18"/>
                                                                     <nil key="textColor"/>

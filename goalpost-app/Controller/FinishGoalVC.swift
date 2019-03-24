@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FinishGoalVC: UIViewController {
+class FinishGoalVC: UIViewController, UITextViewDelegate {
     
     // O U T L E T S
     @IBOutlet weak var createGoalBtn: UIButton!
@@ -26,6 +26,7 @@ class FinishGoalVC: UIViewController {
         super.viewDidLoad()
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
+        pointsTextField.delegate = self as? UITextFieldDelegate
     }
     
     @objc func keyboardWillShow(notification: NSNotification) {
@@ -51,6 +52,36 @@ class FinishGoalVC: UIViewController {
         }
     }
     
-
+    @IBAction func createGoalBtnWasPressed(_ sender: Any) {
+        if pointsTextField.text != nil {
+            self.save { (complete) in
+                if complete {
+                    dismiss(animated: true, completion: nil)
+                }
+            }
+        }
+    }
+    
+    @IBAction func backBtnWasPressed(_ sender: Any) {
+        dismissDetail()
+    }
+    
+    func save(completion: (_ finished: Bool) -> ()) {
+        guard let managedContext = appDelegate?.persistentContainer.viewContext else { return }
+        let goal = Goal(context: managedContext)
+        
+        goal.goalDescription = goalDescription
+        goal.goalType = goalType.rawValue
+        goal.goalCompletionValue = Int32(pointsTextField.text!)!
+        goal.goalProgress = Int32(0)
+        
+        do {
+            try managedContext.save()
+            print("Successfully saved data.")
+            completion(true)
+        } catch {
+            debugPrint("Could not save \(error.localizedDescription)")
+        }
+    }
 
 }

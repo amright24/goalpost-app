@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CreateGoalVC: UIViewController {
+class CreateGoalVC: UIViewController, UITextViewDelegate {
     
     // O U T L E T S
     @IBOutlet weak var goalTextView: UITextView!
@@ -27,6 +27,7 @@ class CreateGoalVC: UIViewController {
         longTermBtn.setDeselectedColor()
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
+        goalTextView.delegate = self 
     }
     
     @objc func keyboardWillShow(notification: NSNotification) {
@@ -74,6 +75,11 @@ class CreateGoalVC: UIViewController {
     
     @IBAction func backBtnWasPressed(_ sender: Any) {
         dismissDetail()
+    }
+    
+    func textViewDidBeginEditing(_ textView: UITextView) {
+        goalTextView.text = ""
+        goalTextView.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
     }
     
 }
